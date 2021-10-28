@@ -11,7 +11,7 @@ Here the back part developed with Symfony :
 ## Dependencies to install :
 
   * fzaninotto/faker : composer require fzaninotto/faker
-  * ORM Fixtures : composer require --dev orm-fixtures (the Post Api is consummed to get Countries and Cities)
+  * ORM Fixtures : composer require --dev orm-fixtures (the "Spott" Api is consummed to get Countries and Cities)
   * Nelmio Cors : composer require nelmio/cors-bundle
   * JWT Lexik : composer require lexik/jwt-authentication-bundle
   * Apache-Pack : composer require symfony/apache-pack
