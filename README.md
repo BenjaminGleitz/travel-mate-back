@@ -1,5 +1,26 @@
 # travel-mate-back
 
-Travel Mate est un projet permettant à des voyageurs d'organiser ou de s'inscrire à des évènements organisés par d'autres, et cela partout dans le monde.
+## The project
 
-Ici la partie back développé avec Symfony, dans laquelle on peut retrouver le backoffice ainsi qu'une API rest.
+Travel Mate is a project allowing travelers to organize or register for events organized by others, all over the world.
+
+Here the back part developed with Symfony : 
+  * An API Restfull to a front project
+  * A backoffice to manage categories, events and users
+
+## Dependencies to install :
+
+  * fzaninotto/faker : composer require fzaninotto/faker
+  * ORM Fixtures : composer require --dev orm-fixtures (the Post Api is consummed to get Countries and Cities)
+  * Nelmio Cors : composer require nelmio/cors-bundle
+  * JWT Lexik : composer require lexik/jwt-authentication-bundle
+  * Apache-Pack : composer require symfony/apache-pack
+
+or a *composer install*
+
+## Technologies : 
+
+  * PHP Symfony
+  * Adminer
+  * CSS
+  * Bootstrap
